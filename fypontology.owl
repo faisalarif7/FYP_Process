@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#hasReviewer"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#Reviewer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb27">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#isForProject"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#CapstoneProject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#Evaluation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb26"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb27"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb28"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb29"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb30"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#Submission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb38"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb39"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb40"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#Supervisor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb21"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb22"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#Student">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb15"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb16"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb17"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb18"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb19"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#Poster">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/capstone#Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#email"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#name"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb28">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#hasGrade"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#Grade"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb40">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#uploadDate"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#hasPhase"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#ProjectPhase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#Proposal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb9"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb10"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb11"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb12"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb13"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb14"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb38">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#includesDocument"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb31">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#overallComments"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#CapstoneProject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb1"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb2"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb3"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb4"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb5"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb6"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb7"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#hasProposal"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#Proposal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#isForProject"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#CapstoneProject"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#hasPhase"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#ProjectPhase"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb42">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#documentTitle"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#Grade">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb46"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#evaluates"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#Evaluation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#Institution">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb34"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb35"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb36"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb37"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb44">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#fileSize"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb45">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#version"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb36">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#location"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb17">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#studentID"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#contactNumber"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb33">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#maxScore"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#GanttChart">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/capstone#Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb15">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#belongsToInstitution"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#Institution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb39">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#submissionDate"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb23">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#designation"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb18">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#name"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#DesignDocument">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/capstone#Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#proposalTitle"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#Document">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb42"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb43"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb44"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb45"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#SRS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/capstone#Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb22">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#name"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#proposalSummary"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb16">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#submitsDocument"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#Submission"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#isSubmittedBy"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#Student"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb46">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#gradeLetter"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb34">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#institutionName"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb35">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#institutionCode"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb21">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#hasPhase"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#ProjectPhase"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#hasCoordinator"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#AcademicCoordinator"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#hasSupervisor"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#Supervisor"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#projectID"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#evaluatesCriterion"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#EvaluationCriterion"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb41">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#submissionType"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb29">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#score"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb30">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#evaluationDate"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb32">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#criterionName"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb37">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#website"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#EvaluationCriterion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb32"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb33"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb26">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#evaluatesCriterion"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#EvaluationCriterion"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#projectTitle"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb43">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#fileFormat"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#Reviewer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb24"/>
+    <rdfs:subClassOf rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#FinalReport">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/capstone#Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/capstone#SourceCode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/capstone#Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ne607748ef4424d6dbb149bc84ab58fddb4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/capstone#hasStudent"/>
+    <owl:someValuesFrom rdf:resource="http://example.org/capstone#Student"/>
+  </rdf:Description>
+</rdf:RDF>
